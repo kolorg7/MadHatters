@@ -1,0 +1,9 @@
+.text {
+    font-family: 'PlayFairDisplay';
+    font-size: 102px;
+    line-height: 110px;
+    &_promo {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,40 @@
+.promo {
+    &__block {
+        position: relative;
+        display: flex;
+        width: 1081px;
+        margin: 137px 228px 101px 131px;
+    }
+    &__wrapper {
+        width: 718px;
+    }
+    &__bc {
+        width: 100px;
+        position: relative;
+        &_b, &_slash, &_c {
+            position: absolute;
+            font-size: 44px;
+            display: flex
+        }
+        &_b {
+            left: 4px;
+            top: -5px;
+        }
+        &_slash {
+           left: 25px;
+           top: 10px;
+        }
+        &_c {
+            left: 35px;
+            top: 20px;
+        }
+    }
+    &__photo {
+        &_man {
+            position: absolute;
+            right: 0;
+            top: 139px;
+            z-index: -1;
+        }
+    }
+}

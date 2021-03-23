@@ -9,7 +9,19 @@
 :root {
     --text-color: #23242C;
 }
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
 
-@import 'blocks/header';
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
+}
+
 @import 'blocks/ellipses';
 @import 'blocks/divider';
+@import 'blocks/title';
+@import 'blocks/text';
+@import 'blocks/buttons';
+@import 'blocks/header';
+@import 'blocks/promo';

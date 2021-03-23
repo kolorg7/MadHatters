@@ -1,0 +1,27 @@
+.btn {
+    position: relative;
+    width: 185px;
+    height: 61px;
+    background: #FFFFFF;
+    color: #967675;
+    border: 1px solid #CFADAC;
+    border-radius: 6px;
+    transition: all 0.3s;
+    &:hover {
+        color: var(--text-color);
+        background: #CFADAC;
+    }
+    &__shadow {
+        position: absolute;
+        top: 26px;
+        left: 12px;
+        bottom: 3px;
+        z-index: -1;
+        width: 161px;
+        height: 32px;
+        box-shadow: 0px 8px 34px rgba(150, 79, 76, 0.32);
+    }
+    &_promo {
+        margin: 36px 0 0 2px;
+    }
+}
