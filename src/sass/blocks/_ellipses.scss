@@ -1,0 +1,18 @@
+.ellipses {
+    width: 9px;
+    height: 9px;
+    display: grid;
+    grid-template-columns: 3px 3px;
+    grid-template-rows: 3px 3px;
+    gap: 3px;
+    &__ellipse {
+        width: 3px;
+        height: 3px;
+        border-radius: 100%;
+        background: #23242C;
+        opacity: 0.3;
+    }
+    &_header {
+        margin: 29px auto 0 auto;
+    }
+}
