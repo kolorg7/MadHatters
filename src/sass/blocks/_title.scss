@@ -10,7 +10,10 @@
     &_promo {
         margin: 63px 0 0 2px;
     }
-    &_range {
+    &_range, &_newsletter {
         text-align: center;
+    }
+    &_newsletter {
+        padding-top: 68px;
     }
 }

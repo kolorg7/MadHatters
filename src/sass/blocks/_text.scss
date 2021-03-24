@@ -8,9 +8,10 @@
         flex-direction: column;
     }
     &_headwear {
+        height: 342px;
         margin-top: 8px;
     }
-    &_range {
+    &_range, &_newsletter {
         margin-top: 9px;
         text-align: center;
     }

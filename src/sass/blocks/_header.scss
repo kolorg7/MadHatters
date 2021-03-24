@@ -1,23 +1,24 @@
 .header {
     max-height: 179px;
     text-align: center;
-    &__logo {
-        margin-top: 30px;
-    }
     &__menu {
         width: 656px;
-        margin: 25px auto 0 auto;
+        height: 82px;
+        margin: 0 auto;
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
     &__link {
         font-family: 'Poppins';
         font-size: 16px;
         line-height: 32px;
         color: var(--text-color);
+        transition: all 0.2s;
         &:hover {
-            color: var(--text-color);
+            color: #CFADAC;
             text-decoration: none;
+            padding-bottom: 5px;
         }
     }
 }

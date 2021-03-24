@@ -14,7 +14,7 @@
     margin: 0 auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, ul, p {
     margin-bottom: 0;
 }
 
@@ -29,3 +29,5 @@ h1, h2, h3, h4, h5, h6 {
 @import 'blocks/range';
 @import 'blocks/list';
 @import 'blocks/citation';
+@import 'blocks/newsletter';
+@import 'blocks/footer';

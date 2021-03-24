@@ -1,0 +1,27 @@
+.newsletter {
+    background: #F9F2EF;
+    position: relative;
+    z-index: 1;
+    height: 410px;
+    &__form {
+        display: flex;
+        justify-content: center;
+        margin: 75px 254px 71px 232px;
+    }
+    input {
+        border: none;
+        outline:none;
+        border-bottom: 1px solid rgba(150, 118, 117, 0.5);
+        background: #F9F2EF;
+        width: 738px;
+        height: 61px;
+        padding-left: 10px;
+        font-size: 28px;
+        font-weight: 300;
+        &::placeholder {
+            font-family: 'Poppins';
+            line-height: 42px;
+            color: #DCCBC6;
+        }
+    }
+}

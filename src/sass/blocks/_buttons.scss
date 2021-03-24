@@ -1,4 +1,4 @@
-.btn {
+.button {
     position: relative;
     width: 185px;
     height: 61px;
@@ -10,6 +10,11 @@
     &:hover {
         color: var(--text-color);
         background: #CFADAC;
+        width: 183px;
+        height: 59px;
+    }
+    &:focus {
+        outline:none;
     }
     &__shadow {
         position: absolute;
@@ -26,5 +31,8 @@
     }
     &_headwear {
         margin-top: 33px;
+    }
+    &_newsletter {
+        margin-left: 35px;
     }
 }
