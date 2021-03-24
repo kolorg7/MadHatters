@@ -40,6 +40,7 @@
     }
     &__more {
         width: 1129px;
+        height: 96px;
         margin: 0 auto;
         position: relative;
         &-bg {
@@ -52,7 +53,7 @@
             font-size: 182.38px;
             line-height: 243px;
             text-align: center;
-            color: #23242C;
+            color: var(--text-color);
             opacity: 0.04;
         }
         &-text {
@@ -64,7 +65,7 @@
             padding: 0 12px;
             z-index: 1;
             font-family: 'PlayfairDisplay';
-            color: #23242C;
+            color: var(--text-color);
             font-size: 36.8465px;
             line-height: 49px;
             background: rgba(255,255,255, 1);
