@@ -13,9 +13,15 @@
             background: #23242C;
             opacity: 0.3;
         }
-    }
-    &_header {
-        margin: 29px auto 0 auto;
+        &_header {
+            margin: 29px auto 0 auto;
+        }
+        &_list {
+            margin-right: 13px;
+            div {
+                background: #964F4C;
+            }
+        }
     }
     &-big {
         &__border {

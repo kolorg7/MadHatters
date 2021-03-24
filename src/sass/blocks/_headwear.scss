@@ -1,0 +1,12 @@
+.headwear {
+    &__wrapper {
+        height: 468px;
+        margin: 153px 140px 217px 129px;
+        display: grid;
+        grid-template-columns: 591px 501px;
+        column-gap: 79px;
+    }
+    &__photo {
+        margin-top: 10px;
+    }
+}

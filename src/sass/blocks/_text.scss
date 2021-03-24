@@ -6,4 +6,11 @@
         display: flex;
         flex-direction: column;
     }
+    &_headwear {
+        margin-top: 8px;
+    }
+    &_range {
+        margin-top: 9px;
+        text-align: center;
+    }
 }

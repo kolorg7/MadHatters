@@ -1,11 +1,11 @@
 .promo {
-    &__block {
+    &__wrapper {
         position: relative;
         display: flex;
-        width: 1081px;
-        margin: 137px 228px 101px 131px;
+        height: 553px;
+        margin: 137px 228px 0 131px;
     }
-    &__wrapper {
+    &__block {
         width: 718px;
     }
     &__bc {
