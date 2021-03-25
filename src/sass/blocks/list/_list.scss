@@ -1,9 +1,10 @@
 .list {
     &__wrapper {
-        margin: 101px 136px 0 136px;
+        margin: 101px 0 153px 0;
         display: grid;
         grid-template-columns: 291px 721px;
         column-gap: 156px;
+        justify-content: center;
     }
     &__items {
         display: grid;
