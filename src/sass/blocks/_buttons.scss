@@ -18,8 +18,9 @@
     }
     &__shadow {
         position: absolute;
-        top: 26px;
-        left: 12px;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
         bottom: 3px;
         z-index: -1;
         width: 161px;

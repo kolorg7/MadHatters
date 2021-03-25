@@ -2,7 +2,7 @@
     max-height: 179px;
     text-align: center;
     &__menu {
-        width: 656px;
+        max-width: 656px;
         height: 82px;
         margin: 0 auto;
         display: flex;
@@ -14,7 +14,7 @@
         font-size: 16px;
         line-height: 32px;
         color: var(--text-color);
-        transition: all 0.2s;
+        transition: all 0.1s;
         &:hover {
             color: #CFADAC;
             text-decoration: none;

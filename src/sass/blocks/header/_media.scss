@@ -1,0 +1,10 @@
+@media screen and (max-width: 768px) {
+    .header {
+        &__logo {
+            padding-bottom: 25px;
+        }
+        &__menu {
+            display: none;
+        }
+    }
+}

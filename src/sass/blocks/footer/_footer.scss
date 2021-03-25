@@ -1,5 +1,4 @@
 .footer {
-    color: #FAF7F3;
     background: #23242C;
     padding-bottom: 120px;
     &__wrapper {
@@ -46,6 +45,7 @@
         font-weight: 600;
         font-size: 18px;
         line-height: 32px;
+        color: #fff;
     }
     &__crgt {
         position: absolute;
@@ -63,6 +63,7 @@
         line-height: 32px;
         display: flex;
         align-items: center;
+        color: #FAF7F3;
     }
     &__link {
         font-family: 'Poppins';

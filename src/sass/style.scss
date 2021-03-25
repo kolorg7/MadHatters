@@ -23,11 +23,20 @@ h1, h2, h3, h4, h5, h6, ul, p {
 @import 'blocks/title';
 @import 'blocks/text';
 @import 'blocks/buttons';
-@import 'blocks/header';
-@import 'blocks/promo';
-@import 'blocks/headwear';
-@import 'blocks/range';
-@import 'blocks/list';
-@import 'blocks/citation';
-@import 'blocks/newsletter';
-@import 'blocks/footer';
+@import 'blocks/header/header';
+@import 'blocks/promo/promo';
+@import 'blocks/headwear/headwear';
+@import 'blocks/range/range';
+@import 'blocks/list/list';
+@import 'blocks/citation/citation';
+@import 'blocks/newsletter/newsletter';
+@import 'blocks/footer/footer';
+
+@import 'blocks/header/media';
+@import 'blocks/promo/media';
+/* @import 'blocks/headwear/media';
+@import 'blocks/range/media';
+@import 'blocks/lis/media';
+@import 'blocks/citation/media';
+@import 'blocks/newsletter/media';
+@import 'blocks/footer/media'; */

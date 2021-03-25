@@ -6,6 +6,9 @@
     &_promo {
         display: flex;
         flex-direction: column;
+        span {
+            padding-left: 75px;
+        }
     }
     &_headwear {
         height: 342px;
