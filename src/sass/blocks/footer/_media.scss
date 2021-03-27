@@ -1,0 +1,107 @@
+@media screen and (max-width: 1600px) {
+    .container {
+        max-width: 1140px;
+    }
+    .footer {
+        &__wrapper {
+            padding: 140px 0 0 0;
+            column-gap: 295px;
+            justify-content: center;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .footer {
+        &__wrapper {
+            column-gap: 115px;
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .footer {
+        &__wrapper {
+            grid-template-columns: 386px 206px;
+            column-gap: 86px;
+        }
+        &__right {
+            grid-template-columns: 206px;
+        }
+        &__list {
+            &:nth-child(2) {
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .footer {
+        &__wrapper {
+            grid-template-columns: 418px;
+            row-gap: 50px;
+        }
+        &__right {
+            order: -1;
+            grid-template-columns: 206px 170px;
+        }
+        &__list {
+            &:nth-child(2) {
+                display: unset;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        max-width: 100%;
+        padding: 0 8px;
+    }
+    .footer {
+        padding-bottom: 50px;
+        &__wrapper {
+            grid-template-columns: 247px;
+            row-gap: 50px;
+        }
+        &__right {
+            order: -1;
+            grid-template-columns: 246px;
+            text-align: center;
+        }
+        &__list {
+            justify-content: center;
+            &:nth-child(2) {
+                display: none;
+            }
+        }
+        &__descr {
+            font-size: 15px;
+        }
+        &__crgt {
+            font-size: 13px;
+        }
+        &__logo {
+            div {
+                left: -20px;
+            }
+        }
+    }
+    .ellipses {
+        &-small {
+            &_footer {
+                left: 40px;
+            }
+        }
+    }
+}

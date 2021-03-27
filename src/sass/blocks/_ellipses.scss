@@ -33,6 +33,7 @@
     }
     &-big {
         position: absolute;
+        z-index: -1;
         right: 83px;
         top: 35px;
         display: flex;

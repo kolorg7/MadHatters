@@ -7,4 +7,11 @@
             display: none;
         }
     }
+    .ellipses {
+        &-small {
+            &_header {
+                padding: 20px 0;
+            }
+        }
+    }
 }

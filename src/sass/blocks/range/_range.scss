@@ -1,9 +1,13 @@
 .range {
+    &__header {
+        margin-top: 217px;
+    }
     &__wrapper {
-        margin: 128px 150px 0 150px;
+        margin: 128px auto 0 auto;
         display: grid;
         grid-template-columns: repeat(2, 511px);
         column-gap: 119px;
+        justify-content: center;
     }
     &__left, &__right {
         display: grid;
@@ -36,11 +40,12 @@
     &__photo {
         img {
             width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
     }
     &__more {
-        width: 1129px;
-        height: 96px;
+        max-width: 1129px;
         margin: 0 auto;
         position: relative;
         &-bg {

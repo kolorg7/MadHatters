@@ -11,13 +11,13 @@
     &__left {
         position: relative;
         display: grid;
-        grid-template-rows: 23px 64px 32px;
+        grid-template-rows: 23px 64px 104px;
         row-gap: 41px;
     }
     &__right {
         position: relative;
         display: grid;
-        grid-template-columns: 206px 141px;
+        grid-template-columns: 206px 170px;
         column-gap: 41px;
         ul {
             display: grid;

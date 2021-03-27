@@ -1,4 +1,5 @@
 .newsletter {
+    margin-top: 104px;
     background: #F9F2EF;
     position: relative;
     z-index: 1;
@@ -6,7 +7,7 @@
     &__form {
         display: flex;
         justify-content: center;
-        margin: 75px 254px 71px 232px;
+        margin-top: 75px;
     }
     input {
         border: none;
@@ -14,7 +15,6 @@
         border-bottom: 1px solid rgba(150, 118, 117, 0.5);
         background: #F9F2EF;
         width: 738px;
-        height: 61px;
         padding-left: 10px;
         font-size: 28px;
         font-weight: 300;
