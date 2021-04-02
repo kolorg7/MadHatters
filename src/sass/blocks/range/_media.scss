@@ -62,12 +62,16 @@
         &__wrapper {
             grid-template-columns: 350px;
             margin: 70px 0 0 0;
+            row-gap: 40px;
         }
         &__header {
             margin-top: 101px;
         }
         &__left, &__right {
             grid-template-rows: repeat(2,465px);
+        }
+        &__right {
+            margin-top: 0;
         }
     }
     .divider {
