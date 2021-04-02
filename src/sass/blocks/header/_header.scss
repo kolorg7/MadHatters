@@ -11,12 +11,15 @@
         li {
             list-style-type: none;
             transition: all 0.1s;
+            height: 32px;
             &:hover {
-                padding-bottom: 5px;
+                margin-bottom: 5px;
+                text-decoration: none;
             }
         }
     }
     &__link {
+        display: inline-block;
         font-family: 'Poppins';
         font-size: 16px;
         line-height: 32px;

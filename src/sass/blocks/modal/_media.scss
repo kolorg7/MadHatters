@@ -1,0 +1,11 @@
+@media screen and (max-width: 576px) {
+    .modal {
+        padding: 40px 0;
+        min-width: 300px;
+        &__close {
+            right: 5px;
+            top: 5px;
+            font-size: 40px;
+        }
+    }
+}

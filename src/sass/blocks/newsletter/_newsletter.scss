@@ -2,26 +2,39 @@
     margin-top: 104px;
     background: #F9F2EF;
     position: relative;
-    z-index: 1;
     height: 410px;
     &__form {
         display: flex;
         justify-content: center;
         margin-top: 75px;
-    }
-    input {
-        border: none;
-        outline:none;
-        border-bottom: 1px solid rgba(150, 118, 117, 0.5);
-        background: #F9F2EF;
-        width: 738px;
-        padding-left: 10px;
-        font-size: 28px;
-        font-weight: 300;
-        &::placeholder {
-            font-family: 'Poppins';
-            line-height: 42px;
-            color: #DCCBC6;
+        &-input {
+            display: flex;
+            flex-direction: column;
+            input {
+                border: none;
+                outline:none;
+                border-bottom: 1px solid rgba(150, 118, 117, 0.5);
+                background: #F9F2EF;
+                width: 738px;
+                padding-left: 10px;
+                font-size: 28px;
+                font-weight: 300;
+                font-family: 'PlayfaitDisplay';
+                &::placeholder {
+                    font-family: 'Poppins';
+                    line-height: 42px;
+                    color: #DCCBC6;
+                }
+            }
+            .error {
+                border-bottom: 1px solid red;
+            }
+            label.error {
+                margin-top: 5px;
+                font-size: 20px;
+                padding-left: 10px;
+                border: none;
+            }
         }
     }
 }
