@@ -1,7 +1,4 @@
 @media screen and (max-width: 1600px) {
-    .container {
-        max-width: 1140px;
-    }
     .list {
         &__wrapper {
             column-gap: 127px;
@@ -10,9 +7,6 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .container {
-        max-width: 960px;
-    }
     .list {
         &__wrapper {
             grid-template-columns: 291px 618px;
@@ -25,10 +19,6 @@
 }
 
 @media screen and (max-width: 992px) {
-    .container {
-        max-width: 720px;
-    }
-
     .list {
         &__wrapper {
             grid-template-columns: repeat(2, 296px);
@@ -45,9 +35,6 @@
 }
 
 @media screen and (max-width: 768px) {
-    .container {
-        max-width: 540px;
-    }
     .list {
         &__descr {
             padding-left: 0;
@@ -64,10 +51,6 @@
 }
 
 @media screen and (max-width: 576px) {
-    .container {
-        max-width: 100%;
-        padding: 0 8px;
-    }
     .list {
         &__wrapper {
             margin: 80px 0;

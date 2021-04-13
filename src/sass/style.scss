@@ -1,6 +1,5 @@
 @import 'libs/bootstrap-reboot.min';
 @import 'libs/font';
-@import 'libs/animate';
 
 * {
     margin: 0;
@@ -10,20 +9,17 @@
 :root {
     --text-color: #23242C;
 }
-.container {
-    width: 1440px;
-    margin: 0 auto;
-}
 
 h1, h2, h3, h4, h5, h6, ul, p {
     margin-bottom: 0;
 }
 
-@import 'blocks/ellipses';
-@import 'blocks/divider';
-@import 'blocks/title';
-@import 'blocks/text';
-@import 'blocks/buttons';
+@import 'blocks/container';
+@import 'blocks/ellipses/ellipses';
+@import 'blocks/divider/divider';
+@import 'blocks/title/title';
+@import 'blocks/text/text';
+@import 'blocks/buttons/buttons';
 @import 'blocks/header/header';
 @import 'blocks/promo/promo';
 @import 'blocks/headwear/headwear';
@@ -35,6 +31,11 @@ h1, h2, h3, h4, h5, h6, ul, p {
 @import 'blocks/modal/modal';
 @import 'blocks/pageup/pageup';
 
+@import 'blocks/title/media';
+@import 'blocks/text/media';
+@import 'blocks/ellipses/media';
+@import 'blocks/divider/media';
+@import 'blocks/buttons/media';
 @import 'blocks/header/media';
 @import 'blocks/promo/media';
 @import 'blocks/list/media';

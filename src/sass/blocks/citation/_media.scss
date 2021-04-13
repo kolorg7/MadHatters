@@ -1,21 +1,4 @@
-@media screen and (max-width: 1600px) {
-    .container {
-        max-width: 1140px;
-    }
-}
-
 @media screen and (max-width: 1200px) {
-    .container {
-        max-width: 960px;
-    }
-    .ellipses {
-        &-big {
-            &__center {
-                width: 310px;
-                height: 310px;
-            }
-        }
-    }
     .citation {
         &__wrapper {
             height: 468px;
@@ -25,10 +8,8 @@
         }
     }
 }
+
 @media screen and (max-width: 992px) {
-    .container {
-        max-width: 720px;
-    }
     .citation {
         &__text {
             font-size: 35px;
@@ -38,30 +19,9 @@
             height: 420px;
         }
     }
-    .ellipses {
-        &-big {
-            &__center {
-                width: 280px;
-                height: 280px;
-            }
-        }
-    }
 }
 
 @media screen and (max-width: 768px) {
-    .container {
-        max-width: 540px;
-    }
-    .ellipses {
-        &-big {
-            width: 280px;
-            height: 280px;
-            &__center {
-                width: 185px;
-                height: 185px;
-            }
-        }
-    }
     .citation {
         &__wrapper {
             height: 280px;
@@ -85,20 +45,6 @@
 }
 
 @media screen and (max-width: 576px) {
-    .container {
-        max-width: 100%;
-        padding: 0 8px;
-    }
-    .ellipses {
-        &-big {
-            width: 200px;
-            height: 200px;
-            &__center {
-                width: 140px;
-                height: 140px;
-            }
-        }
-    }
     .citation {
         &__wrapper {
             height: 200px;
@@ -108,7 +54,7 @@
             width: 47px;
         }
         &__text {
-            font-size: 23px;
+            font-size: 26px;
             padding-top: 83px;
             line-height: 30px;
         }

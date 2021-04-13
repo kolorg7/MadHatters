@@ -1,0 +1,94 @@
+@media screen and (max-width: 1200px) {
+    .ellipses {
+        &-big {
+            width: 468px;
+            height: 468px;
+            &_promo {
+                top: 55px;
+                right: 115px;
+            }
+            &__center {
+                &_promo {
+                    width: 220px;
+                    height: 220px;
+                }
+                &_citation {
+                    width: 310px;
+                    height: 310px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .ellipses {
+        &-big {
+            width: 420px;
+            height: 420px;
+            &_promo {
+                right: 8px;
+            }
+            &__center {
+                &_promo {
+                    width: 200px;
+                    height: 200px;
+                }
+                &_citation {
+                    width: 280px;
+                    height: 280px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ellipses {
+        &-big {
+            &_citation {
+                width: 280px;
+                height: 280px;
+            }
+            &__center {
+                &_citation {
+                    width: 185px;
+                    height: 185px;
+                }
+            }
+            &_promo {
+                left: 50%;
+                transform: translateX(-50%);
+                top: 200px;
+            }
+        }
+        &-small {
+            &_header {
+                padding: 20px 0 30px 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .ellipses {
+        &-big {
+            width: 300px;
+            height: 300px;
+            &_citation {
+                width: 205px;
+                height: 205px;
+            }
+            &__center {
+                &_promo {
+                    width: 135px;
+                    height: 153px;
+                }
+                &_citation {
+                    width: 150px;
+                    height: 150px;
+                }
+            }
+        }
+    }
+}

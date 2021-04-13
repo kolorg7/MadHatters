@@ -1,7 +1,4 @@
 @media screen and (max-width: 1600px) {
-    .container {
-        max-width: 1140px;
-    }
     .promo {
         &__wrapper {
             margin: 137px 25px 101px 25px;
@@ -10,9 +7,6 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .container {
-        max-width: 960px;
-    }
     .promo {
         &__photo {
             &_man {
@@ -23,39 +17,9 @@
             }
         }
     }
-    .text {
-        &_promo {
-            font-size: 79px;
-            line-height: 82px;
-        }
-    }
-    .button {
-        width: 180px;
-        height: 56px;
-        &_promo {
-            margin: 23px 0 0 2px;
-        }
-    }
-    .ellipses {
-        &-big {
-            width: 468px;
-            height: 468px;
-            &_promo {
-                top: 55px;
-                right: 115px;
-            }
-            &__center {
-                width: 196px;
-                height: 196px;
-            }
-        }
-    }
 }
 
 @media screen and (max-width: 992px) {
-    .container {
-        max-width: 720px;
-    }
     .promo {
         &__photo {
             margin-top: 13px;
@@ -69,40 +33,13 @@
         &__wrapper {
             margin: 137px 0 101px 0;
         }
-    }
-    .text {
-        &_promo {
-            font-size: 71px;
+        &__bc {
+            display: none;
         }
-    }
-    .ellipses {
-        &-big {
-            width: 420px;
-            height: 420px;
-            &_promo {
-                right: 8px;
-            }
-            &__center {
-                width: 180px;
-                height: 180px;
-            }
-        }
-    }
-    .button {
-        width: 165px;
-        height: 50px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .container {
-        max-width: 540px;
-    }
-    .header {
-        &__logo {
-            padding-bottom: 25px;
-        }
-    }
     .promo {
         &__wrapper {
             flex-direction: column;
@@ -120,25 +57,12 @@
             }
         }
         &__block {
-            margin-top: 50px;
-        }
-    }
-    .ellipses {
-        &-big {
-            &_promo {
-                left: 50%;
-                transform: translateX(-50%);
-                top: 200px;
-            }
+            margin: 100px auto 0 auto;
         }
     }
 }
 
 @media screen and (max-width: 576px) {
-    .container {
-        max-width: 100%;
-        padding: 0 8px;
-    }
     .promo {
         &__photo {
             margin: 0;
@@ -147,27 +71,8 @@
                 display: none;
             }
         }
-        &__bc {
-            display: none;
-        }
-    }
-    .ellipses {
-        &-big {
-            width: 300px;
-            height: 300px;
-            &__center {
-                width: 135px;
-                height: 153px;
-            }
-        }
-    }
-    .text {
-        &_promo {
-            font-size: 65px;
-            line-height: 65px;
-            span {
-                padding-left: 0;
-            }
+        &__block {
+            margin: 30px auto 0 auto;
         }
     }
 }

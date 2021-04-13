@@ -1,7 +1,4 @@
 @media screen and (max-width: 1600px) {
-    .container {
-        max-width: 1140px;
-    }
     .headwear {
         &__wrapper {
            margin: 0 0 157px 0;
@@ -10,9 +7,6 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .container {
-        max-width: 960px;
-    }
     .headwear {
         &__wrapper {
             grid-template-columns: 451px 468px;
@@ -22,72 +16,34 @@
 }
 
 @media screen and (max-width: 992px) {
-    .container {
-        max-width: 720px;
-    }
     .headwear {
         &__wrapper {
             grid-template-columns: 321px 358px;
             grid-template-rows: 404px;
         }
     }
-    .text {
-        &_headwear {
-            font-size: 71px;
-            line-height: 88px;
-        }
-    }
-    .button {
-        &_headwear {
-            margin-top: 32px;
-        }
-    }
 }
 
 @media screen and (max-width: 768px) {
-    .container {
-        max-width: 540px;
-    }
     .headwear {
         &__wrapper {
             margin-top: 101px;
             grid-template-columns: 540px;
             grid-template-rows: 404px 303px;
         }
-    }
-    .title {
-        &_headwear {
-            margin-top: 25px;
-        }
-    }
-    .text {
-        &_headwear {
-            height: 163px;
-            font-size: 70px;
+        &__block {
+            margin: 0 auto;
+            max-width: 443px;
         }
     }
 }
 
 @media screen and (max-width: 576px) {
-    .container {
-        max-width: 100%;
-        padding: 0 8px;
-    }
     .headwear {
         &__wrapper {
             grid-template-columns: minmax(304px, auto);
         }
-    }
-    .text {
-        &_headwear {
-            height: 205px;
-            width: 304px;
-            font-size: 62px;
-            line-height: 62px;
-        }
-    }
-    .button {
-        &_headwear {
+        &__block {
             margin: 0;
         }
     }

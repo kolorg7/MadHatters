@@ -1,7 +1,4 @@
 @media screen and (max-width: 1600px) {
-    .container {
-        max-width: 1140px;
-    }
     .footer {
         &__wrapper {
             padding: 140px 0 0 0;
@@ -12,9 +9,6 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .container {
-        max-width: 960px;
-    }
     .footer {
         &__wrapper {
             column-gap: 115px;
@@ -23,9 +17,6 @@
 }
 
 @media screen and (max-width: 992px) {
-    .container {
-        max-width: 720px;
-    }
     .footer {
         &__wrapper {
             grid-template-columns: 386px 206px;
@@ -43,9 +34,6 @@
 }
 
 @media screen and (max-width: 768px) {
-    .container {
-        max-width: 540px;
-    }
     .footer {
         &__wrapper {
             grid-template-columns: 418px;
@@ -64,10 +52,6 @@
 }
 
 @media screen and (max-width: 576px) {
-    .container {
-        max-width: 100%;
-        padding: 0 8px;
-    }
     .footer {
         padding-bottom: 50px;
         &__wrapper {

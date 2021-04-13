@@ -14,7 +14,6 @@
             height: 32px;
             &:hover {
                 margin-bottom: 5px;
-                text-decoration: none;
             }
         }
     }
@@ -29,5 +28,8 @@
             color: #CFADAC;
             text-decoration: none;
         }
+    }
+    &__logo {
+        cursor: pointer;
     }
 }
